@@ -5,7 +5,6 @@ I gained a lot of experience working with html, css, js, jsp, servlets and of co
 
 For start:
 Local server tomcat10
-Ide for start
 
 
 Well, let's start with parsing the internal code (java server)
