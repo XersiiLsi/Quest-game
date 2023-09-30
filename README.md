@@ -1,7 +1,7 @@
 # Project-Quest
 
 Well, I did this big project🥳. 
-I gained a lot of experience working with html, css, js, jsp, servlets and of course java.
+I gained a lot of experience working with html, css, js, ajax,  jsp, servlets and of course java.
 
 For start:
 Local server tomcat10
