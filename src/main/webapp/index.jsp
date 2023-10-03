@@ -19,7 +19,6 @@
 </head>
 
 <body onpageshow="perfomance()">
-<a href="http://localhost:8080/quest">Click me</a>
  <div class="css-typing">
     <div id="title">
         <h1 class="type-animation" id="name" style="--typewriterCharacters: 1; --typewriterSpeed: 5s;">
@@ -28,6 +27,7 @@
         <h2 class="type-animation" id="profession" style="--typewriterCharacters: 8; --typewriterSpeed: 3s;">
             <% out.print(person.profession());%>
         </h2>
+        <a href="http://localhost:8080/quest">Click me</a>
     </div>
         <p id="smooth-effect"><% out.print(person.history());%></p>
         <h4 class="subtitle-glow">Good skills: <% out.print(person.goodSkills());%></h4>
@@ -37,5 +37,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/imageChanger.js"></script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background: url("/img/MidJourney/quest/start.png");
+    background-size: cover;
+    transition: 1s;
+}
+.text {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 90px;
+    margin-top: 200px;
+    text-align: center;
+    max-width: 374px;
+    margin-left: 575px;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.buttions {
+    margin-top: 156px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn {
+    color: white;
+    display: flex;
+    padding: 22px 70px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FF6861;
+    text-decoration: none;
+    margin: auto;
+
+}
+.info {
+    text-align: center;
+}
+#Ok {
+    display: none;
+}
+p {
+
+}

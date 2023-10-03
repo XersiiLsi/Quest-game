@@ -1,0 +1,37 @@
+combinate:
+
+	2 items {
+		stone + stone = groundStone
+		campfire + meat = cooked meat;
+		campfire + fish = cooked fish;
+		gasMaskFilter + bottle = cleaningBottle;
+		cleaningBottle + water = drinkingWaterBottle;
+		pureWater + bottle = cleanWaterBottle;
+		fishingRot + worm = finishedFishingRot;
+		
+
+
+}
+
+	3 items {
+	groundStone + stick + rope = axe
+	stick + textile + gasoline = torch
+	water + pot + campfire = pureWater
+
+
+
+}
+	4 items {
+		camfire + pot + meat + water = soup
+		campfire + pot + fish + water = soup
+	riceCerealBag + pot + water + campfire = cookedRise
+	bagOfBuckwheat + pot + water + campfire = cookedBuckwheat
+}
+	campfire craft {
+	documentation + leaflet + branch + lighter = campfire
+				+ flint = campfire
+	newspaper + leaves + branch + magnifying glass = campfire
+				+ 
+}
+
+	

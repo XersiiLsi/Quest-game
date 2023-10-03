@@ -1,4 +1,3 @@
-const body = document.querySelector('body')
 const name = document.getElementById('name')
 const profession = document.getElementById('profession')
 
@@ -8,58 +7,6 @@ function wordLength(word) {
 }
 wordLength(name)
 wordLength(profession)
-
-
-function getRandomInt () {
-    return Math.floor(Math.random() * 10);
-}
-
-const perfomance = () => {
-    changeImageSuit()
-    setTimeout(function() {
-        changeImageGo()
-    }, 5000);
-    setTimeout(function() {
-        changeImageCrash()
-    }, 15000);
-    setTimeout(function() {
-        changeImageBeach()
-    }, 18000);
-}
-const changeImageSuit = () => {
-    number = getRandomInt()
-    if (number === 0) {
-        number = getRandomInt()
-    }
-    if (number === 0) {
-        number = getRandomInt()
-    }
-    body.style.backgroundImage = "url('/img/MidJourney/startImages/packingSuitcase/suitcase" + number +".png')"
-}
-
-const changeImageGo = () => {
-    number = getRandomInt()
-    if (number === 0) {
-        number = getRandomInt()
-    }
-    body.style.backgroundImage = "url('/img/MidJourney/startImages/walkToPlane/walk" + number +".png')"
-}
-
-const changeImageCrash = () => {
-    number = getRandomInt()
-    if (number === 0) {
-        number = getRandomInt()
-    }
-    body.style.backgroundImage = "url('/img/MidJourney/startImages/crashingPlane/crash" + number +".png')"
-}
-
-const changeImageBeach = () => {
-    number = getRandomInt()
-    if (number === 0) {
-        number = getRandomInt()
-    }
-    body.style.backgroundImage = "url('/img/MidJourney/startImages/planeOnBeach/plane" + number +".png')"
-}
 
 $(document).ready(function(){
     $.fn.animate_Text = function() {
